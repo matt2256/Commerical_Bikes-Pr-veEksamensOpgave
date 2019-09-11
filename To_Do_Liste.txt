@@ -3,5 +3,20 @@
 1.3 lave npm script
 1.4 commit det hele til github ' 
 1.5 lave basic HTML '
-1.6 set et basic start punkt i scss for html´en 
-1.7 finde ud af hvordan siden skal deles op og lave 
+1.6 set et basic start punkt i scss for html´en '
+1.7 finde ud af hvordan headeren skal deles op og lave 
+2. lav html´en for headeren
+2.1 Giv det hele classer i forhold til BEM
+2.2 style det hele
+3. lav html´en for navigation
+3.1 lav en div
+3.2 Giv det hele classer i forhold til BEM
+3.3. indsæt billedet i diven
+3.3.1 centere billedet i diven
+4. Lav en div 
+4.1 lav et 4 grid der, ligger til venstre i diven
+4.1.1 lav h2
+4.2 lav et 2 grid der, ligger til højre i diven
+4.2.1 lav h2 
+4.3 giv det hele classer i forhold til BEM
+4.4 style det hele
