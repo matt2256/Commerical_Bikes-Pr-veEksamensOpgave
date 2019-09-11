@@ -4,10 +4,10 @@
 1.4 commit det hele til github ' 
 1.5 lave basic HTML '
 1.6 set et basic start punkt i scss for html´en '
-1.7 finde ud af hvordan headeren skal deles op og lave 
-2. lav html´en for headeren
-2.1 Giv det hele classer i forhold til BEM
-2.2 style det hele
+1.7 finde ud af hvordan headeren skal deles op og lave '
+2. lav html´en for headeren '
+2.1 Giv det hele classer i forhold til BEM '
+2.2 style det hele ' 
 3. lav html´en for navigation
 3.1 lav en div
 3.2 Giv det hele classer i forhold til BEM
