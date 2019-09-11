@@ -1,7 +1,7 @@
 1. starte npm op '
 1.2 installer node-sass med --save-dev '
 1.3 lave npm script
-1.4 commit det hele til github
-1.5 lave basic HTML
+1.4 commit det hele til github ' 
+1.5 lave basic HTML *
 1.6 set et basic start punkt i scss for html´en 
 1.7 finde ud af hvordan siden skal deles op og lave 
