@@ -1,4 +1,8 @@
 //MARGIN BUTTOM
+.u-margin-buttom-mini {
+    margin-bottom: 1rem !important;
+}
+
 .u-margin-buttom-small {
     margin-bottom: 1.5rem !important;
 }
@@ -12,8 +16,13 @@
 }
 
 //MARGIN TOP 
+
 .u-margin-top-small {
     margin-top: 1.5rem !important;
+}
+
+.u-margin-top-medium-small {
+    margin-top:  3.65rem !important;
 }
 
 .u-margin-top-medium {
@@ -31,4 +40,9 @@
 //TEXT CENTERING
 .u-heading-center {
     text-align: center;
+}
+
+//MARGIN-RIGHT 
+.u-margin-right-small {
+    margin-right: 3rem !important;
 }

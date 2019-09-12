@@ -15,3 +15,17 @@
         font-weight: 100;
     }
 }
+
+.section-information {
+    background-color: $color-text;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+
+    &__heading {
+        text-decoration: none;
+        text-transform: uppercase;
+        text-align: left;
+        font-weight: 100;
+    }
+}
