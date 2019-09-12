@@ -33,6 +33,10 @@ body {
 
 .heading-quad {
   backface-visibility: hidden;
+  color: $color-black;
+  display: block;
+  font-size: 1.8rem;
+  white-space: nowrap;
 
   &--main {
     color: $color-text;
@@ -41,14 +45,28 @@ body {
     white-space: nowrap;
   }
 
-    color: $color-black;
+  &--yellow {
+    color: $color-primary;
     display: block;
     font-size: 1.8rem;
     white-space: nowrap;
-
+    font-weight: 100;
+  }
 }
 
 .paragraph {
   font-size: $default-font-size;
   line-break: auto;
+
+  &--grey {
+    color: $color-text;
+    font-size: $default-font-size;
+  line-break: auto;
+  }
+
+  &--black {
+    color: $color-black;
+    font-size: $default-font-size;
+  line-break: auto;
+  }
 }
