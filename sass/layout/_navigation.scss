@@ -1,0 +1,35 @@
+.navigation {
+    
+
+    &__top {
+        background-color: $color-black;
+        display: flex;
+        width: 100%;
+        height: 4.2rem;
+    }
+
+    &__top-photo {
+        
+        justify-content: center;
+        max-width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__bottum {
+
+        &--list-left {
+            
+        }
+
+        &--list-right {
+
+        }
+
+        &--list-item {
+
+        }
+    }
+}
+
