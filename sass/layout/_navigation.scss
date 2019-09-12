@@ -17,18 +17,21 @@
         margin-right: auto;
     }
 
-    &__bottum {
+    &__buttom {
+        display: flex;
+        justify-content: space-between;
+        
 
         &--list-left {
-            
+            width: 50%;
         }
 
         &--list-right {
-
+            width: 30%;
         }
 
         &--list-item {
-
+            display: inline;
         }
     }
 }
