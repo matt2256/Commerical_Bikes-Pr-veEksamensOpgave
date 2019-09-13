@@ -48,9 +48,10 @@ body {
   &--yellow {
     color: $color-primary;
     display: block;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     white-space: nowrap;
     font-weight: 100;
+    text-transform: uppercase;
   }
 }
 
@@ -60,13 +61,13 @@ body {
 
   &--grey {
     color: $color-text;
-    font-size: $default-font-size;
-  line-break: auto;
+    font-size: 1rem;
+    line-break: auto;
   }
 
   &--black {
     color: $color-black;
     font-size: $default-font-size;
-  line-break: auto;
+    line-break: auto;
   }
 }

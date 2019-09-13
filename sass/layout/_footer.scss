@@ -1,6 +1,6 @@
 .footer {
     background-color: $color-black;
-    
+    padding-bottom: 3rem;
 
     &__list {
 
@@ -8,6 +8,14 @@
 
     &__link {
         text-decoration: none;
+        text-align: cemter;
+    }
+
+    &__item {
+        text-align: center;
+    }
+
+    &__heading {
         text-align: center;
     }
 }
