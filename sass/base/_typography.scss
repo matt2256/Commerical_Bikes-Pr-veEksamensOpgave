@@ -4,6 +4,7 @@ body {
   font-style: normal;
 }
 
+// H1
 .heading-primary {
   backface-visibility: hidden;
 
@@ -13,6 +14,7 @@ body {
   white-space: nowrap;
 }
 
+// H2
 .heading-secoundary {
   backface-visibility: hidden;
 
@@ -22,6 +24,7 @@ body {
   white-space: nowrap;
 }
 
+// H3
 .heading-tetriary {
   backface-visibility: hidden;
 
@@ -31,6 +34,7 @@ body {
   white-space: nowrap;
 }
 
+// H4
 .heading-quad {
   backface-visibility: hidden;
   color: $color-black;
@@ -55,6 +59,7 @@ body {
   }
 }
 
+// P
 .paragraph {
   font-size: $default-font-size;
   line-break: auto;

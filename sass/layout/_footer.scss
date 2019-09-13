@@ -1,20 +1,16 @@
 .footer {
     background-color: $color-black;
     padding-bottom: 3rem;
-
-    &__list {
-
-    }
-
+    // A
     &__link {
         text-decoration: none;
         text-align: cemter;
     }
-
+    // LI
     &__item {
         text-align: center;
     }
-
+    // H4 HEADER 
     &__heading {
         text-align: center;
     }

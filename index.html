@@ -9,8 +9,15 @@
   </head>
 
   <body>
+
+    <!-- Navigation  -->
+    <!-- The navigation bar is made up of de parts, each part is a div with a class of navigation__top/bottom to seperate them -->
     <nav class="navigation">
+
+      <!--Top part of the navigation bar  -->
       <div class="navigation__top">
+
+        <!-- The top part of the navigation bar, consist of a image (the logo) on a black background -->
         <img
           src="/img/logo.png"
           title="billede af commencals logo"
@@ -18,7 +25,12 @@
           class="navigation__top-photo"
         />
       </div>
+
+      <!-- The bottom part of the navigation bar -->
+      <!-- The bottom part of the navigation bar is made of 2 unordered list. The list on left side consist of 4 list element with each having a ancor element it. The list on the right side consist of 2 list element, each list element has a ancor element inside it -->
       <div class="navigation__buttom">
+
+        <!-- The left side list  -->
         <ul class="navigation__buttom--list-left">
           <li class="navigation__buttom--list-item">
             <a href="#" class="navigation__buttom__link heading-quad">Bikes</a>
@@ -39,6 +51,8 @@
             >
           </li>
         </ul>
+
+        <!-- The right side list  -->
         <ul class="navigation__buttom--list-right">
           <li class="navigation__buttom--list-item">
             <a href="#" class="navigation__buttom__link heading-quad">Blog</a>
@@ -51,6 +65,9 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Header -->
+    <!-- The header consist of a image, that is scaled to the right size -->
     <header class="header">
       <img
         src="img/slider/1.jpg"
@@ -59,7 +76,13 @@
         class="header__photo"
       />
     </header>
+
+    <!-- Main -->
+    <!-- The main consist of two sections. The first section is a about displying images about bikes. The secound section is about new regarding the company and cyckling new -->
     <main>
+
+      <!-- Section with pictures of bikes -->
+      <!-- The first section is made of 2 sepret grids. Each grid is made of 4 columns. In each column consist of a image and h3.  -->
       <section class="section-bikes">
         <div class="row">
           <div class="col-1-of-4 u-margin-top-medium">
@@ -69,7 +92,9 @@
               title="Kids cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               Kids
             </h3>
           </div>
@@ -80,7 +105,9 @@
               title="xc hardtail cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               xc hardtail
             </h3>
           </div>
@@ -91,7 +118,9 @@
               title="xc full suspension cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               xc full suspension
             </h3>
           </div>
@@ -102,7 +131,9 @@
               title="street cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               street
             </h3>
           </div>
@@ -116,7 +147,9 @@
               title="downhill cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               downhill
             </h3>
           </div>
@@ -127,7 +160,9 @@
               title="enduro hardtail cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               enduro hardtail
             </h3>
           </div>
@@ -138,7 +173,9 @@
               title="enduro full suspension cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               enduro full suspension
             </h3>
           </div>
@@ -149,14 +186,21 @@
               title="baf city cykel"
               class="section-bikes__photo"
             />
-            <h3 class="section-bikes__heading heading-quad--main u-margin-top-small">
+            <h3
+              class="section-bikes__heading heading-quad--main u-margin-top-small"
+            >
               city
             </h3>
           </div>
         </div>
       </section>
+
+      <!-- Section with information -->
+      <!-- The secound section is made of one, two columns grid. -->
       <section class="section-information u-margin-top-medium">
         <div class="row">
+
+          <!-- The left side of the grid contains teh image of the video -->
           <div class="col-1-of-2 u-margin-right-small">
             <img
               src="img/video-placeholder.png"
@@ -165,6 +209,9 @@
               class="section-information__photo"
             />
           </div>
+
+          <!-- The left side of the grid contains the new information -->
+          <!-- Each new section is made up of a div and the div contains and h3 elementer as a header and paragraph that contains the text  -->
           <div class="col-1-of-2">
             <div class="section-information-about">
               <h3
@@ -209,6 +256,8 @@
         </div>
       </section>
     </main>
+
+    <!-- Footer -->
     <footer class="footer">
       <div class="row">
         <div class="col-1-of-3">
@@ -217,7 +266,7 @@
           >
             Follow us
           </h4>
-          <ul class="footer__list">
+          <ul>
             <li class="footer__item">
               <a href="#" class="footer__link paragraph--grey">Youtube</a>
             </li>
@@ -235,7 +284,7 @@
           >
             Information
           </h4>
-          <ul class="footer__list">
+          <ul>
             <li class="footer__item">
               <a href="#" class="footer__link paragraph--grey">Tutorials</a>
             </li>
@@ -258,7 +307,7 @@
           >
             Commencal
           </h4>
-          <ul class="footer__list">
+          <ul>
             <li class="footer__item">
               <a href="#" class="footer__link paragraph--grey"
                 >Employee Discounts</a

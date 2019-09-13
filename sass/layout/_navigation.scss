@@ -1,6 +1,7 @@
 .navigation {
-    
+    // THE NAVIGATION IS SPLIT INTO TO SECTIONS. A TOP AND A BOTTOM SECTION
 
+    // TOP SECTION 
     &__top {
         background-color: $color-black;
         display: flex;
@@ -8,6 +9,7 @@
         height: 4.2rem;
     }
 
+    // IMAGE OF THE LOGO IN THE TOP SECTION OF THE TOP PART OF THE NAVIGATION 
     &__top-photo {
         
         justify-content: center;
@@ -17,6 +19,7 @@
         margin-right: auto;
     }
 
+    // BOTTOM SECTION 
     &__buttom {
         display: flex;
         justify-content: space-between;
@@ -24,23 +27,27 @@
         background-color: $color-primary;
         height: 4.2rem;
 
+        // LIST GOING TO THE LEFT SIDE OF THE NAVIGATION 
         &--list-left {
             display: inline-block;
             margin-left: 11%;
             padding-top: 1rem;
         }
 
+        // LIST GOING TO THE LEFT SIDE OF THE NAVIGATION 
         &--list-right {
             display: inline-block;
             margin-left: 33%;
             padding-top: 1rem;
         }
 
+        // ITEMS IN THE LIST / LI 
         &--list-item {
             display: inline-block;
             padding-left: 1.4rem;
         }
 
+        // A 
         &__link {
             text-decoration: none;
             

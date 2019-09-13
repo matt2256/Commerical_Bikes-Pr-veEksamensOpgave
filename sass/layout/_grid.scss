@@ -1,10 +1,12 @@
 @include clearfix;
 
+// SIZE OF THE CONTAINER FOR THE GRID 
 .row {
   max-width: $grid-width;
   margin: 0 auto;
 }
 
+// SELECTOR FOR CLASS: "COL" 
 [class^="col-"] {
   float: left;
 
@@ -13,6 +15,7 @@
   }
 }
 
+//CALCULATIONS FOR THE WIDTH OF THE GRID 
 .col-1-of-2 {
   width: calc((100% - #{$gutter-horizontal}) / 2);
 }
