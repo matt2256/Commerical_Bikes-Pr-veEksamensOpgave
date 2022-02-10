@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/matt2256/Commerical_Bikes-Pr-veEksamensOpgave#readme",
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^7.0.0"
   }
 }
